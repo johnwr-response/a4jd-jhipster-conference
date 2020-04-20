@@ -1,0 +1,38 @@
+{
+  "generator-jhipster": {
+    "promptValues": {
+      "packageName": "com.jhipcon"
+    },
+    "jhipsterVersion": "6.8.0",
+    "applicationType": "microservice",
+    "baseName": "conference",
+    "packageName": "com.jhipcon",
+    "packageFolder": "com/jhipcon",
+    "serverPort": "8081",
+    "authenticationType": "jwt",
+    "cacheProvider": "hazelcast",
+    "enableHibernateCache": true,
+    "websocket": false,
+    "databaseType": "sql",
+    "devDatabaseType": "h2Disk",
+    "prodDatabaseType": "mysql",
+    "searchEngine": false,
+    "messageBroker": false,
+    "serviceDiscoveryType": "eureka",
+    "buildTool": "maven",
+    "enableSwaggerCodegen": false,
+    "jwtSecretKey": "MDAyY2VhZGQ1MTI4MmU4NzA2Yzc3N2I2MGQ5NzBiYjA5YmE2YjMwOGRmNDA2MmJhNzMwYWVhYTY3MmViMjY5N2NjMTUyODAxNjEyZTFmNjQ3ODljYTAyMzgwMzRkOWM1OGMyYWFkYTNjNTY4MGNmNDhmYWViMTMyOWNlMDQ2Yzg=",
+    "embeddableLaunchScript": false,
+    "creationTimestamp": 1587387770196,
+    "testFrameworks": ["gatling", "cucumber"],
+    "jhiPrefix": "jhi",
+    "entitySuffix": "",
+    "dtoSuffix": "DTO",
+    "otherModules": [],
+    "enableTranslation": false,
+    "clientPackageManager": "npm",
+    "blueprints": [],
+    "skipClient": true,
+    "skipUserManagement": true
+  }
+}
